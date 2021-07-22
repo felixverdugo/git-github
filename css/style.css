@@ -10,9 +10,9 @@ body {
   margin: 0;
 }
 .article {
-  background-color: aqua;
-  width: 500px;
-  height: 530px;
+  background-color: rgb(1, 179, 179);
+  width: 550px;
+  height: 520px;
   padding: 0;
   margin: 30px auto;
   border-radius: 20px;
@@ -23,6 +23,19 @@ body {
   margin: 0 auto;
   background-color: bisque;
   border-radius: 20px 20px 0 0;
+  position: relative;
+}
+.cabecera__icon{
+  position: absolute;
+  width: 60px;
+}
+.cabecera__icon--git{
+  bottom: -30px;
+  left: 20px;
+}
+.cabecera__icon--github{
+  bottom: -30px;
+  right: 20px;
 }
 .cabecera__title {
   font-size: 25px;
