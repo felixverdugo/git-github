@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+:root{
+  --color: rgba(224, 221, 216, 0.973); 
+}
 * {
   box-sizing: border-box;
 }
@@ -10,7 +13,7 @@ body {
   margin: 0;
 }
 .article {
-  background-color: aqua;
+  background-color: rgba(167, 221, 221, 0.952);
   width: 500px;
   height: 560px;
   padding: 0;
@@ -21,7 +24,7 @@ body {
   font-weight: bold;
   width: 100%;
   margin: 0 auto;
-  background-color: bisque;
+  background-color: var(--color);
   border-radius: 20px 20px 0 0;
   position: relative;
 }
@@ -50,7 +53,7 @@ body {
 }
 a {
   display: inline-block;
-  background: bisque;
+  background: rgba(245, 238, 225, 0.973);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
