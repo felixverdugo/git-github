@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
-:root{
-  --color: rgba(224, 221, 216, 0.973); 
+:root {
+  --color: rgba(224, 221, 216, 0.973);
 }
 * {
   box-sizing: border-box;
@@ -28,15 +28,15 @@ body {
   border-radius: 20px 20px 0 0;
   position: relative;
 }
-.cabecera__icon{
+.cabecera__icon {
   position: absolute;
   width: 60px;
 }
-.cabecera__icon--git{
+.cabecera__icon--git {
   bottom: -30px;
   left: 20px;
 }
-.cabecera__icon--github{
+.cabecera__icon--github {
   bottom: -30px;
   right: 20px;
 }
@@ -67,7 +67,7 @@ a:hover {
   background: #ecdfd0;
   color: #525252;
 }
-.footer {
+.article-footer {
   background-color: #7bc4e6;
   position: relative;
   bottom: 0;
@@ -77,12 +77,38 @@ a:hover {
   border-radius: 0 0 20px 20px;
 }
 
-.footer__p {
+.article-footer__p {
   text-align: center;
   padding: 16px;
 }
-.footer__p span{
+.article-footer__p span {
   color: rgb(255, 246, 197);
-font-weight: bold;
-letter-spacing: 3px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  background-color: #444444;
+}
+
+.footer-menu{
+  list-style: none;
+  color: rgb(153, 153, 153);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.footer-menu--item{
+  padding: 6px;
+}
+.footer-menu--item:hover{
+  background-color: #ada8a8;
+  color: #333;
+  border-radius: 6px;
+  cursor: pointer;
 }
