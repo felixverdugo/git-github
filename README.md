@@ -12,6 +12,7 @@ En realidad no necesitas muchos conocimiento pero lo necesario seria:
 * Conexion a internet
 * Conocimiento basico de [HTML y CSS](https://platzi.com/cursos/html-css/)
 * Saber usar una [terminal](https://platzi.com/terminal)
+* Y muchas ganas de nunca parar de aprender 😍
 
 ## Comandos que aprenderas
 `git init`
