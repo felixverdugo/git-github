@@ -22,3 +22,7 @@ En realidad no necesitas muchos conocimiento pero lo necesario seria:
 `git add .`
 
 `git commit -m "Nombre del commit"`
+
+`git remote add origin https://github.com/miusuario/nombre-de-repositorio.git`
+
+`git git branch mi-rama-nuevesita`
